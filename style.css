@@ -1,0 +1,31 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fcfff7;
+  flex-direction: row;
+}
+p {
+  font-size: 23px;
+  text-align: center;
+  color: #1a0325;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.costumes {
+  flex-basis: 28%;
+  float: left;
+  padding: 1%;
+  margin: 0.5%;
+  background-color: rgb(192, 169, 206);
+}
+.costumes img {
+  width: 100%;
+}
+.costumes button {
+  font-size: 20px;
+}
+.shoppingCart {
+  font-size: 20px;
+}
+h1 {
+  color: #7f4ad9;
+}
